@@ -3,4 +3,10 @@
 // Create a variable called ‘answer’. 
 // Find the remainder of the division of number by 3 and assign it to ‘answer’.
 // return the answer.
-void main() {}
+num func(int a){
+  return(a%3);
+}
+
+void main() {
+  print (func(5));
+}
